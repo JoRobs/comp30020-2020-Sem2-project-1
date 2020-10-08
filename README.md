@@ -1,7 +1,9 @@
 # comp30020-2020-Sem2-project-1
 The one about Cribbage in Prolog
 
-###Description
+
+### Description
+
 This file contains 2 important predicates, hand_value/3 and select_hand/3, 
 their modes being hand_value(+Hand,+Startcard,-Value) and 
 select_hand(+Cards,-Hand,-Cribcards), which can be used to improve a user's 
@@ -22,5 +24,14 @@ possible 4 card combination from the set of cards, then calculates the hand
 value of that set given every possible startcard, the average of these values 
 is the expected value. The hand with the highest expected value is then chosen.
 
-###Instructions
-Can be run using SWI-Prolog by loading the file through [cribbage]. or consult(cribbage).
+
+### Instructions
+
+Can be run using SWI-Prolog by loading the file through 
+```prolog
+?- [cribbage].
+``` 
+or 
+```prolog
+?- consult(cribbage).
+```
